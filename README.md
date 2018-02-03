@@ -1,9 +1,9 @@
 # 323 2-Heap-Sort<br />
-CSC 323-32: Project 2 <Heap Sort> (C++/Java)<br />
-Preston Peck<br />
-Due date: Sept. 20, 2016 <br />
+### CSC 323-32: Project 2 <Heap Sort> (C++/Java)<br />
+### Preston Peck<br />
+### Due date: Sept. 20, 2016 <br />
 
-**** Algorithm steps for heap sort:<br />
+#### **** Algorithm steps for heap sort:<br />
 
 Step 1: open the input file;<br />
      1.1: read and count the number of date item in the input file<br />
@@ -15,7 +15,7 @@ Step 2: call buildPQAry<br />
 
 Step 3: call deletePQAry<br />
 
-**** Algorithm steps for buildHeap:<br />
+#### **** Algorithm steps for buildHeap:<br />
 
 Step 1: open the input file for the second time<br />
 
@@ -30,7 +30,7 @@ Step 5: repeat step 2 - 4 while input file is NOT empty<br />
 
 Step 6: close the input file<br />
 
-**** Algorithm steps for deleteRoot:<br />
+#### **** Algorithm steps for deleteRoot:<br />
 
 Step 1: open the output file<br />
 
@@ -45,7 +45,7 @@ Step 4: repeat step 2 and 3 while PQAry is NOT empty<br />
 Step 5: close the two output files<br />
 
 
-INPUT<br />
+### INPUT<br />
 23<br />
 82 12 53<br />
 9 39 2 13<br />
@@ -59,7 +59,7 @@ INPUT<br />
 7 8<br />
 5 10 20<br />
 
-OUTPUT<br />
+### OUTPUT<br />
 23 <br />
 23 82 <br />
 12 82 23 <br />
