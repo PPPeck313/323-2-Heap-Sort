@@ -5,44 +5,44 @@
 
 #### **** Algorithm steps for heap sort:<br />
 
-Step 1: open the input file;<br />
-     1.1: read and count the number of date item in the input file<br />
-     1.2: close the file<br />
-     1.3: dynamically allocate the PQAry of the size count+1<br />
-     1.4:  initallize PQAry[0] to 0<br />
+**Step 1:** open the input file;<br />
+     **1.1:** read and count the number of date item in the input file<br />
+     **1.2:** close the file<br />
+     **1.3:** dynamically allocate the PQAry of the size count+1<br />
+     **1.4:**  initallize PQAry[0] to 0<br />
      
-Step 2: call buildPQAry<br />
+**Step 2:** call buildPQAry<br />
 
-Step 3: call deletePQAry<br />
+**Step 3:** call deletePQAry<br />
 
 #### **** Algorithm steps for buildHeap:<br />
 
-Step 1: open the input file for the second time<br />
+**Step 1:** open the input file for the second time<br />
 
-Step 2: data <-- get a data item from the input file<br />
+**Step 2:** data <-- get a data item from the input file<br />
 
-Step 3: insertOneDataItem (data)<br />
-     3.1: bubbleUp<br />
+**Step 3:** insertOneDataItem (data)<br />
+     **3.1:** bubbleUp<br />
      
-Step 4: printPQAry (print the content of PQAry up to the first 10 items of the PQAry to *out1file*<br />
+**Step 4:** printPQAry (print the content of PQAry up to the first 10 items of the PQAry to *out1file*<br />
 
-Step 5: repeat step 2 - 4 while input file is NOT empty<br />
+**Step 5:** repeat step 2 - 4 while input file is NOT empty<br />
 
-Step 6: close the input file<br />
+**Step 6:** close the input file<br />
 
 #### **** Algorithm steps for deleteRoot:<br />
 
-Step 1: open the output file<br />
+**Step 1:** open the output file<br />
 
-Step 2: deleteRoot <br />
-     2.1: print the root to *outfile2*<br />
-     2.2: bubbleDown<br />
+**Step 2:** deleteRoot <br />
+     **2.1:** print the root to *outfile2*<br />
+     **2.2:** bubbleDown<br />
      
-Step 3: printPQAry (print the content of PQAry up to the first 10 items of the PQAryto *outfile1*<br />
+**Step 3:** printPQAry (print the content of PQAry up to the first 10 items of the PQAryto *outfile1*<br />
 
-Step 4: repeat step 2 and 3 while PQAry is NOT empty<br />
+**Step 4:** repeat step 2 and 3 while PQAry is NOT empty<br />
 
-Step 5: close the two output files<br />
+**Step 5:** close the two output files<br />
 
 
 ### INPUT<br />
